@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Berkshire+Swash&display=swap');
+/*font-family: 'Berkshire Swash', cursive;*/
+body{
+	padding: 0px;
+	margin: 0px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+body::-webkit-scrollbar-thumb{
+    height: 60%;
+    background-color: aqua;
+    border-radius: 2px;
+}
+
+
+ul{list-style: none}
+
+h4{margin-bottom:4px;color: yellowgreen;}
+a{text-decoration: none;color: black;}
+p{margin: 0px;
+	/*font-family: 'IBM Plex Mono';*/
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+form{
+	margin-top: 25vh;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgb(0, 255, 255);
+}
+
+form input{
+	background-color: rgba(255, 255, 255, 0.2);
+	color:black;
+	height:25px;
+	border: 1px solid rgb(0, 255, 255);
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 10px;
+
+}
+form input::placeholder{
+	color: rgba(0,0,0,0.5);
+}
+form p{
+	font-size: 10px;
+}
+
+form a{
+	font-weight: 600;
+	color: rgb(0, 0, 255);
+}
+
+.button{
+	color: rgba(0, 0, 0, 1.0);
+	text-align: center;
+	font-weight: 700;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgba(0, 255, 255, 1.0);
+	background-color: rgba(255, 255, 255, 1.0);
+
+}
+span{
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 12px;
+	margin-bottom: 5px;
+
+}
+
+
+
+/* ---------HEADER ITENS INÍCIO--------- */
+/* ---------HEADER ITENS INÍCIO--------- */
+/* ---------HEADER ITENS INÍCIO--------- */
+/* ---------HEADER ITENS INÍCIO--------- */
+#header{
+
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 60px;
+	align-items: center;
+
+	color: white;
+	background-color: black;
+}
+
+#menu_list{
+	font-weight: 600;
+	height: 100%;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	justify-content: space-between;
+}
+
+#menu_list li{
+	width: 70px;
+	display: flex;
+	height: 90%;
+	margin-left: 15px;
+}
+
+.menu_list_a {
+	color: white;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-bottom: 1px solid rgb(0, 255, 255);
+	transition: all 0.5s;
+}
+
+.menu_list_a:hover{
+	background-color: rgb(0, 255, 255);
+}
+
+#logo_menu{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	border: none;
+	background-image: url("../../assets/img/logonovaeros1.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+#status_login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90%;
+	margin-right: 15px;
+}
+#status_login a{	
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	color:rgb(0, 255, 255);
+	text-decoration: none;
+	height:auto;
+	border-bottom: 1px solid rgb(0, 255, 255);
+	width: auto;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+#status_login a:hover{	
+	
+	color:rgb(150, 50, 255);
+	border-bottom: 1px solid rgb(150, 50, 255);
+	
+}
+/* ---------HEADER ITENS FIM--------- */
+/* ---------HEADER ITENS FIM--------- */
+/* ---------HEADER ITENS FIM--------- */
+/* ---------HEADER ITENS FIM--------- */
+
+/* ---------Footer ITENS INÍCIO--------- */
+/* ---------Footer ITENS INÍCIO--------- */
+/* ---------Footer ITENS INÍCIO--------- */
+/* ---------Footer ITENS INÍCIO--------- */
+#footer{
+
+	color: white;
+	display: flex;
+	width: 100%;
+	height: 150px;
+	justify-content:space-between;
+	align-items: center;
+	font-size:14px;
+	background-color: black;
+}
+#footer a{color: white;}
+#atendimento_footer{margin-right: 30px}
+
+/* ---------Footer ITENS FIM--------- */
+/* ---------Footer ITENS FIM--------- */
+/* ---------Footer ITENS FIM--------- */
+/* ---------Footer ITENS FIM--------- */
+
+
+/* ---------Panel Conteiner---------- */
+/* ---------Panel Conteiner---------- */
+/* ---------Panel Conteiner---------- */
+/* ---------Panel Conteiner---------- */
+#menuPanel{
+	display: flex;
+	justify-content: flex-start;
+	height: 100%;
+	width: 300px;
+}
+#menuPanel ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: black;
+}
+#menuPanel ul li{
+	align-items: center;
+	text-align: center;
+}
+
+#menuPanel ul li a{
+	text-align: center;
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 15px;
+	align-items: center;
+	color: rgb(0, 255, 255);
+	transition: all 0.5s;
+}
+#menuPanel ul li a:hover{
+	color: rgb(150, 50, 255);
+}
+
+#panel_conteiner{
+	display: flex;
+	font-weight: 600;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+	align-items: center;
+	padding: 0;
+	justify-content: space-between;
+}
+.conteudo_panel{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.data_user{
+	padding-left: 50px;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 100px;
+	align-items: left;
+	font-size: 15px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-decoration: none;
+}
+
+.data_user h3{
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+}
+.data_user div{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: flex-end;
+	margin-bottom: 10px;
+}
+
+.data_user a{
+	width: 100px;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.data_user label{
+	width: 100px;
+	display: flex;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ---------Mesa Panel---------- */
+/* ---------Mesa Panel---------- */
+/* ---------Mesa Panel---------- */
+/* ---------Mesa Panel---------- */
+
+#mini_menu_mesa{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	justify-content: space-between;
+	flex-direction: row;
+}
+#mini_menu_mesa ul{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+#mini_menu_mesa ul li a{
+	font-size: 13px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+#mini_menu_mesa ul li a:hover{
+	color: rgb(150, 50, 255);
+}
+
+
+#divBusca{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color:#cbfffc;
+  	border:solid 2px #289fa3;
+  	border-radius:10px;
+  	width:300px;
+  	height:30px;
+}
+#txtBusca{
+	float:left;
+  	background-color:transparent;
+  	padding-left:5px;
+  	font-size:18px;
+  	border:none;
+  	height:100%;
+  	width:100%;
+}
+
+#txtBusca:focus{
+	box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#btnBusca{border:none;
+	float:left;
+	height:100%;
+	border-radius:0 7px 7px 0;
+	width:70px;
+	font-weight:bold;
+	background:#5F9EA0;
+}
+#divBusca img{
+	height: 80%;
+	margin: auto;
+	float:left;
+}	
